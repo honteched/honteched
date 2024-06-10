@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Honest Online Shop</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="logg">
+  <!-- <p class="logo">OGIEBE <br>AUTOS</p> -->
+ </div>
+  <header>
+    
+    <div class="log" style="display: flex; justify-content: right;">
+
+      
+      <nav class="nav">
+          <div class="nav-button">
+              <button class="bth" id="loginBth">Sign in</button>
+              <button class="bth" id="RegisterBth">Sign Up</button>
+          </div>
+          <div class="nav-menu-bth">
+              <i class="bx bx-menu"></i>
+          </div>
+      </nav>
+      
+  </div>
+    <h1 class="h1">WELCOME TO OGIEBE AUTOS NIG</h1>
+    
+    
+  </header>
+
+  <div class="fstbg"><img src="./images/interio 4.avif" alt="interio"></div>
+  <ul class="list">
+    <li><a href="./index.html" class="home">Home</a></li>
+    <li><a href="">Foreign Used</a></li>
+    <li><a href="">Nigeria Used</a></li>
+    <!-- <li><a href="">Service</a></li> -->
+    <li><a href="./Sell to us/sell.html">Sell to us</a></li>
+    <li><a href="./Team Members/team.html">Team</a></li>
+    <li><a href="./About Us/about.html">About</a></li>
+  </ul>
+  
+  
+  <div class="container">
+    <div class="product">
+      <img src="./images/153278728_486752906033794_6363605564716248833_n.jpeg" alt="Product 1">
+      <h2>Foreign Used Range Rover</h2>
+      <p class="old-price">&#8358;15,000,000</p>
+      <p class="new-price">&#8358;13,500,000</p>
+      <p>Negotiable</p>
+      <button onclick="confirmPurchase()">Buy Now</button>
+    </div>
+
+    <!-- Add more products here -->
+    <div class="product">
+        <img src="./images/163521510_507567617285656_9148399747820079353_n.jpeg" alt="Product 1">
+        <h2>Foreign Used Lexus GX450</h2>
+        <p class="old-price">&#8358;12,400,000</p>
+        <p class="new-price">&#8358;11,370,000</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/163537196_507567577285660_5620225834988141348_n.jpeg" alt="Product 1">
+        <h2>Foreign Used Lexus</h2>
+        <p class="old-price">&#8358;36,490,000</p>
+        <p class="new-price">&#8358;31,300,000</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="./images/182956420_535126707863080_181527462788461029_n.jpeg" alt="Product 1">
+        <h2>Mercedess ML 350</h2>
+        <P>Year: 2013</P>
+        <p class="old-price">&#8358;24,700,000</p>
+        <p class="new-price">&#8358;22,600,000</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/AGL-CAR7-1 (1).jpeg" alt="Product 1">
+        <h2>Foreign Used Benz</h2>
+        <P>Year: 2018</P>
+        <p class="old-price">&#8358;40,600,000</p>
+        <p class="new-price">&#8358;39,560,000</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/AGL-CARS-10.jpeg" alt="Product 1">
+        <h2>Foreign Used Benz</h2>
+        <P>Year: 2017</P>
+        <p class="old-price">&#8358;23,900,000</p>
+        <p class="new-price">&#8358;22,500,000</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+
+      <div class="product">
+        <img src="./images/AGL-CARS-11.jpeg" alt="Product 1">
+        <h2>Foreign Used Benz</h2>
+        <P>Year: 2017</P>
+        <p class="old-price">&#8358;23,900,000</p>
+        <p class="new-price">&#8358;22,500,000</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+
+      <div class="product">
+        <img src="./images/AGL-CARS-6.jpeg" alt="Product 1">
+        <h2>Truck</h2>
+        <p>Year: 2011</p>
+        <p class="old-price">&#8358;14,900,000</p>
+        <p class="new-price">&#8358;13,500,000</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+
+      <div class="product">
+        <img src="./images/AGL-CARS-8.jpeg" alt="Product 1">
+        <h2>Foreign Used Benz</h2>
+        <p>Year: 2018</p>
+        <p class="old-price">&#8358;42,000,000</p>
+        <p class="new-price">&#8358;40,500,000</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/car2.jpeg" alt="Product 1">
+        <h2>New Benz</h2>
+        <p>Year: 2019</p>
+        <p class="old-price">&#8358;56,800,000</p>
+        <p class="new-price">&#8358;55,500,000</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/AGL-CARS5.jpeg" alt="Product 1">
+        <h2>Foreign used Benz</h2>
+        <p class="old-price">&#8358;28,800,000</p>
+        <p class="new-price">&#8358;27,500,000</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/AGL-CARS3.jpeg" alt="Product 1">
+        <h2>Foreign Used Lexus</h2>
+        <p class="old-price">&#8358;48,700,000</p>
+        <p class="new-price">&#8358;46,000,000</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/AGL-CARS3.jpeg" alt="Product 1">
+        <h2>New Sneakers</h2>
+        <p class="old-price">&#8358;800</p>
+        <p class="new-price">&#8358;500</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/AGL-CARS3.jpeg" alt="Product 1">
+        <h2>New Sneakers</h2>
+        <p class="old-price">&#8358;800</p>
+        <p class="new-price">&#8358;500</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/AGL-CARS3.jpeg" alt="Product 1">
+        <h2>New Sneakers</h2>
+        <p class="old-price">&#8358;800</p>
+        <p class="new-price">&#8358;500</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/AGL-CARS3.jpeg" alt="Product 1">
+        <h2>New Sneakers</h2>
+        <p class="old-price">&#8358;800</p>
+        <p class="new-price">&#8358;500</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/AGL-CARS3.jpeg" alt="Product 1">
+        <h2>New Sneakers</h2>
+        <p class="old-price">&#8358;800</p>
+        <p class="new-price">&#8358;500</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/AGL-CARS3.jpeg" alt="Product 1">
+        <h2>New Sneakers</h2>
+        <p class="old-price">&#8358;800</p>
+        <p class="new-price">&#8358;500</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/AGL-CARS3.jpeg" alt="Product 1">
+        <h2>New Sneakers</h2>
+        <p class="old-price">&#8358;800</p>
+        <p class="new-price">&#8358;500</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/AGL-CARS3.jpeg" alt="Product 1">
+        <h2>New Sneakers</h2>
+        <p class="old-price">&#8358;800</p>
+        <p class="new-price">&#8358;500</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="./images/AGL-CARS3.jpeg" alt="Product 1">
+        <h2>New Sneakers</h2>
+        <p class="old-price">&#8358;800</p>
+        <p class="new-price">&#8358;500</p>
+        <p>Negotiable</p>
+        <button onclick="confirmPurchase()">Buy Now</button>
+      </div>
+
+  </div>
+
+  <div id="fox">
+    <p class="pit"><b>WHY OUR CUSTOMERS CHOOSE US</b></p><hr>
+        <p>We are one of the best car dealers in Nigeria, we have the best price
+        And we have constantly put our customers first.</p>
+    </div><br><br>    
+    <div class="kkk">
+            <img src="./cars detail/car-1.png" alt="" width="110" height="110">
+            <!-- <h3 class="piv">780+</h3> -->
+            <!-- <p>VEHICLES SOLD YEARLY</p> -->
+            <img src="./cars detail/circular-label-with-certified-stamp.png" alt="" width="110" height="110">
+            <!-- <h3 class="piv2">98.6%</h3> -->
+            <!-- <p>CUSTOMER SATISFACTION</p> -->
+            <img src="./cars detail/satisfaction.png" alt="" width="110" height="110">
+            <!-- <h3 class="piv3">100%</h3>  -->
+            <!-- <p>CLASSIFIED</p> -->
+    </div>
+    <div class="slot"><h3 class="piv1">50+</h3>
+            <p class="p1">VEHICLES SOLD YEARLY</p>
+    <h3 class="piv2">99.6%</h3>
+            <p class="p2">CUSTOMER SATISFACTION</p> 
+     <h3 class="piv3">100%</h3> 
+            <p class="p3">CLASSIFIED</p> 
+    </div> 
+
+
+
+  <footer>
+     <!-- ENDING -->
+     <section>
+        <div class="alldembox">
+           <div class="firstbo">
+           <ul>
+              <h3 class="h3h">Shop and Learn</h3>
+             <li><a href="#">Store</a></li>
+             <li><a href="#">Shoes</a></li>
+             <li><a href="#">Nike</a></li>
+             <li><a href="#">Puma</a></li>
+             <li><a href="#">Watch</a></li>
+             <li><a href="#">Vision</a></li>
+             <li><a href="#">AirPods</a></li>
+             <li><a href="#">TV & Home</a></li>
+             <li><a href="#">AirTag</a></li>
+             <li><a href="#">Accessories</a></li>
+             <li><a href="#">Gift Cards</a></li>
+             <h3 class="h3h">Wallet</h3>
+             <li><a href="#">Wallet</a></li>
+             <li><a href="#">Bank Transfer</a></li>
+             <li><a href="#">PayPal Pay</a></li>
+             <li><a href="#">Apple Cash</a></li>
+           </ul>
+         </div>
+
+         
+
+
+         <!-- SECOND -->
+         <div class="firstbo">
+             <ul>
+                <h3 class="h3h">Account</h3>
+               <li><a href="#">Manage Your Order</a></li>
+               <li><a href="#">Honest Store Account</a></li>
+               <li><a href="#">honestshop.com</a></li>
+               <h3 class="h3h">Entertainment</h3>
+               <li><a href="#">Single Order</a></li>
+               <li><a href="#">Electronics</a></li>
+               <li><a href="#">Musical Instrument</a></li>
+               <li><a href="#">Your Orders</a></li>
+               <li><a href="#">Fitness+</a></li>
+               <li><a href="#">News+</a></li>
+               <li><a href="#">Podcasts</a></li>
+               <li><a href="#">Books</a></li>
+               <li><a href="#">Store</a></li>
+               
+             </ul>
+           </div>
+
+
+
+           <!-- THIRD -->
+
+           <div class="firstbo">
+             <ul>
+                <h3 class="h3h">Honest Store</h3>
+               <li><a href="#">Find a Store</a></li>
+               <li><a href="#">Genius Bar</a></li>
+               <li><a href="#">Today at Our Shop</a></li>
+               <li><a href="#">Honest Camp</a></li>
+               <li><a href="#">Honest Store App</a></li>
+               <li><a href="#">Certified Refurbished</a></li>
+               <li><a href="#">Trade Crypto</a></li>
+               <li><a href="#">Financing</a></li>
+               <li><a href="#">Carrier Deals at Honest Store</a></li>
+               <li><a href="#">Order Status</a></li>
+               <li><a href="#">Shopping Help</a></li>
+               
+             </ul>
+           </div>
+
+
+
+         <!-- FOUTH -->
+         <div class="firstbo">
+             <ul>
+                <h3 class="h3h">For Business</h3>
+               <li><a href="#">Honest and Business</a></li>
+               <li><a href="#">Shop for Business</a></li>
+               <h3 class="h3h">For Education</h3>
+               <li><a href="#">Honest and Education</a></li>
+               <li><a href="#">Shop for K-12</a></li>
+               <li><a href="#">Shop for College</a></li>
+               <h3 class="h3h">For Healthcare</h3>
+               <li><a href="#">Healthcare Product</a></li>
+               <li><a href="#">Health and Wealth</a></li>
+               <li><a href="#">Your Records on Our Store</a></li>
+                <h3 class="h3h">For Government</h3>
+               <li><a href="#">Shop for Government</a></li>
+               <li><a href="#">Shop for Veterans and Military</a></li>
+             </ul>
+           </div>
+
+
+           <!-- FIFTH -->
+           <div class="firstbo">
+             <ul>
+                <h3 class="h3h">Values</h3>
+               <li><a href="#">Accessibility</a></li>
+               <li><a href="#">Education</a></li>
+               <li><a href="#">Environment</a></li>
+               <li><a href="#">Inclusion and Diversity</a></li>
+               <li><a href="#">Privacy</a></li>
+               <li><a href="#">Racial Equity and Justice</a></li>
+               <li><a href="#">Supplier Responsibility</a></li>
+               
+               <h3 class="h3h">About Honest Store</h3>
+               <li><a href="#">Newsroom</a></li>
+               <li><a href="#">Leadership</a></li>
+               <li><a href="#">Career Opportunities</a></li>
+               <li><a href="#">Investors</a></li>
+               <li><a href="#">Ethics & Compliance</a></li>
+               <li><a href="#">Events</a></li>
+               <li><a href="#">Contact Honest Store</a></li>
+             </ul>
+           </div>
+           
+           
+        </div>
+        
+ </section>
+
+    <p>&copy; 2024 Ogiebe Autos Nig</p>
+  </footer>
+
+  <script src="./java/script.js"></script>
+  <script src="./bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
